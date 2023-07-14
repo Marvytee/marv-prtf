@@ -24,7 +24,8 @@ export default function Home(){
                         .typeString("A Volleyball Player.")
                         .start();
                 }}/></h1>
-            <h2 className="w-[60%] lg:w-[40%] m-auto mt-8 text-3xl" >Solving problems is an hobby. I also love learning, unlearning and relearning, this helps me to keep up regularly with the trends in the tech world.</h2>    
+            <h2 className="w-[60%] lg:w-[40%] m-auto mt-8 text-3xl" >Solving problems is an hobby. I also love learning, unlearning and relearning. This helps me to keep up regularly with the trends in the tech world.</h2>
+                
         </div>
     )
 }

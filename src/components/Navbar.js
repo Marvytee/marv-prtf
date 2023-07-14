@@ -5,7 +5,7 @@ export default function Navbar(){
     return (
         <nav className="dark:text-white flex items-center w-[100%] justify-evenly flex-wrap gap-[50px] lg:gap-[450px] lg:flex-nowrap p-6">
             <div className="font-[700] text-[30px] text-blue-600 dark:text-yellow-500">
-            <h1>Marvelous Aliyu</h1>
+            <a href='https://marvelousaliyu.netlify.app/'>Marvelous Aliyu</a>
             </div>
             <div className="block lg:hidden">
                 <button
