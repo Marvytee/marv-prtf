@@ -6,14 +6,14 @@ import Acme from "../images/Screenshot 2023-07-14 225326.png"
 export default function Projects(){
     return(
         <div id="projects" className="dark:text-[#e7e7e7]">
-            <h1 className="text-3xl font-bold ml-10">My Projects</h1>
+            <h1 className="text-4xl font-bold ml-10">My Projects</h1>
             <div className="px-10 py-14">
                 <div className="mb-10 lg:flex lg:flex-row lg:gap-9">
                    <img src={Omega} alt="project-img" className="lg:w-[50%]"/>
                    <div className="mt-6">
                     <h1 className="text-2xl font-bold">Omega</h1>
                     <p className="text-lg mt-3">Omega Loan Prediction Software provides a way to know if a loan applicant is eligible for a loan. This helps financial institutions to make more accurate lending decisions.</p>
-                    <div className="flex flex-row gap-8 mt-4 font-semibold mb-6">
+                    <div className="flex flex-row gap-6 mt-4 font-semibold mb-6">
                         <p>ReactJS</p>
                         <p>TailwindCSS</p>
                         <p>Git</p>

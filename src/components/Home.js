@@ -4,7 +4,7 @@ import Picture from "../images/-5870854633457564738_121 (2).jpg"
 
 export default function Home(){
     return(
-        <div id="home" className="text-center dark:text-[#e7e7e7]"> 
+        <div id="home" className="text-center dark:text-[#e7e7e7] font-inter"> 
             <img src={Picture} className="m-auto rounded-full " alt="Marvelou's Headshot"/>
             <h1 className="text-5xl font-bold mt-5">Hi there, I'm Marvelous.</h1>
             <h1 className="text-4xl mt-8">I am a Frontend Web Developer</h1>
