@@ -3,7 +3,7 @@ import Typewriter from "typewriter-effect";
 
 export default function About(){
     return(
-        <div id="about" className="dark:text-white my-12 mx-10">
+        <div id="about" className="dark:text-[#e7e7e7] my-12 mx-10">
             <div>
                 <h1 className="text-3xl font-bold mb-3">Get to know me.</h1>
                 <p className="text-xl ml-4 mb-2">My name is Aliyu Marvelous Temitope, my friends call me "Marvytee" which is gotten from combining the first few letters of my firstname and middlename.</p>

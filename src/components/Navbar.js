@@ -1,9 +1,10 @@
 import React, { useState } from 'react';
+import Resume from "../assets/Marvelous aliyu's CV.pdf"
 
 export default function Navbar(){
     const [isOpen, setIsOpen] = useState(false);
     return (
-        <nav className="dark:text-white flex items-center w-[100%] justify-evenly flex-wrap gap-[50px] lg:gap-[450px] lg:flex-nowrap p-6">
+        <nav className="dark:text-[#e7e7e7] flex items-center w-[100%] justify-evenly flex-wrap gap-[50px] lg:gap-[150px] lg:flex-nowrap p-6">
             <div className="font-[700] text-[30px] text-blue-600 dark:text-yellow-500">
             <a href='https://marvelousaliyu.netlify.app/'>Marvelous Aliyu</a>
             </div>
@@ -42,6 +43,7 @@ export default function Navbar(){
                     <a href="#contact" className="block mt-4 lg:inline-block lg:mt-0 mr-16">
                     Contact
                     </a>
+                    <a href={Resume} download className='block mt-4 lg:inline-block lg:mt-0'>Download Resume</a>
                 </div>
             </div>
         </nav>
