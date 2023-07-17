@@ -5,7 +5,7 @@ export default function Navbar(){
     const [isOpen, setIsOpen] = useState(false);
     return (
         <nav className="dark:text-[#e7e7e7] flex items-center w-[100%] justify-evenly flex-nowrap gap-[5px] md:gap[60px] lg:gap-[150px] p-6">
-            <div className="font-[700] text-[20px] lg:text-[30px]  text-blue-600 dark:text-yellow-500">
+            <div className="font-[700] text-[20px] md:text-[30px] lg:text-[30px]  text-blue-600 dark:text-yellow-500">
             <a href='https://marvelousaliyu.netlify.app/'>Marvelous Aliyu</a>
             </div>
             <div className="block lg:hidden">
